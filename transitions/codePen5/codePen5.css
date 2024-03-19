@@ -1,0 +1,31 @@
+div {
+  background: yellow;
+  height: 200px;
+  width: 200px;
+  margin: 100px auto 0;
+  animation-name: testAnimation; /* 2) Conectar la animación */
+  animation-duration: 3s; /* 3) Crear una duración de 3s para la animación */
+  animation-delay: 0s; /* 4) Crear un retraso de animación de cero */
+  animation-iteration-count: infinite; /* 5) Crear un recuento de iteración infinito, se repite por siempre */
+  animation-timing-function: linear; /* 6) Crear una función de temporización lineal */
+  animation-direction: alternate; /* 7) Establecer la dirección de la animación en alternar */
+}
+
+@keyframes testAnimation {
+  0% {
+    transform: rotate(360deg);
+    border-radius: 50% 0 50% 0;
+  }
+  100% {
+    background-color: aqua;
+    border-radius: 0 50% 0 50%;
+  }
+}
+
+/* 1) Discuss with your partner what the testAnimation will do */
+/* 2) Connect the defined keyframes to the div */
+/* 3) Create a 3s duration for the animation */
+/* 4) Create a zero animation delay */
+/* 5) Create an infinite iteration count */
+/* 6) Create a linear timing function */
+/* 7) Set the animation direction to alternate */

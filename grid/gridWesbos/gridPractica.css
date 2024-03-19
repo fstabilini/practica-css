@@ -1,0 +1,39 @@
+.container {
+  border: solid 6px red;
+  display: grid;
+  grid-gap: 20px;
+
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(4, 100px);
+  /* grid-auto-rows: 100px; */
+  /* para las que quedan fuera de lo impicito en el codigo que escribi */
+
+  /*grid-template-columns: 400px 200px;
+   grid-auto-flow: column;
+  grid-auto-columns: 50px; agrega columnas de forma automatica para los items que sigue nluego de los 2 que estan predeterminados en est codigo en grid-template-columns : 400px 200px */
+
+  /* fr es el espacio disponible */
+  /*height: 600px; agrande el contenedor
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
+}
+
+/* span toma el lugar de 2 fr en este caso */
+/* .item8 {
+  background-color: aqua;
+  grid-column: span 2;
+}*/
+
+.item {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 3px;
+  font-size: 35px;
+  background-color: #ffc600;
+}
+
+body {
+  letter-spacing: -1px;
+}

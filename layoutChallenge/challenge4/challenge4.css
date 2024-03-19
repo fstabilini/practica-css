@@ -1,0 +1,22 @@
+.wrap {
+  height: 500px;
+  width: 500px;
+  border: 5px solid red;
+}
+
+.div1 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+
+.div2 {
+  position: absolute; /* Posicionamiento absoluto respecto al contenedor relativo */
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  color: white;
+  top: 60px; /* Modificar para superponer */
+  left: 60px; /* Modificar para superponer */
+}

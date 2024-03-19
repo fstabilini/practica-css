@@ -1,0 +1,100 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.big-wrap {
+  background-color: #000000;
+  width: 400px;
+  padding: 10px 20px 0 20px;
+}
+
+.middle-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.small-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  font-size: 35px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.name {
+  color: gray;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.yellow-square {
+  color: white;
+  background-color: rgb(212, 152, 31);
+  height: 100px;
+  width: 100px;
+  font-size: 70px;
+  transform: rotate(90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink-square {
+  color: white;
+  background-color: rgb(238, 49, 172);
+  height: 100px;
+  width: 100px;
+  font-size: 70px;
+  transform: rotate(90deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.plus-square {
+  color: black;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+}
+
+.plus-circle {
+  color: black;
+  background-color: grey;
+  border-radius: 50%; /* Esto hace que el div sea un círculo */
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center; /* Centra el contenido verticalmente */
+  font-weight: bold;
+  font-size: 60px;
+  height: 50px;
+  width: 50px;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.button {
+  border: 1px solid gray;
+  background-color: #000000;
+  color: gray;
+  padding: 10px;
+  width: 160px;
+  height: 30px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

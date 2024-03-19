@@ -1,0 +1,72 @@
+/* FONT */
+/* font-family: 'Yanone Kaffeesatz', sans-serif; */
+
+/* COLORS */
+/* background color -> #B4E4E6 */
+/* text color -> #453D3D */
+/* button color -> #B32274 */
+/* button text color -> white */
+
+* {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: #453d3d;
+  background-color: #b4e4e6;
+}
+
+h1 {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+button {
+  background-color: #b32274;
+  color: white;
+  padding: 0.5rem 2.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container--small {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  padding: 30px;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+p {
+  font-size: 0.8rem;
+  text-align: center;
+  /* justify-content: space-evenly; */
+}
+
+.wrap--button {
+  display: flex;
+  justify-content: center;
+}
+
+/* wrap, title */
+
+/* Iteration 1 (after CSS: Fundamentals lesson):
+ya lo hice en fundamentals/ css-intro-imperfectfoods*/
+
+/* Iteration 2 (after CSS: Flexbox lesson):
+Use flexbox to make the layout match the comp (hint: you may need to add container elements to your HTML to group the img, h2, and p elements) */

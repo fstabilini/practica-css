@@ -1,0 +1,23 @@
+.wrap {
+  height: 500px;
+  width: 500px;
+  border: 5px solid red;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.div1 {
+  width: 200px;
+  height: 200px;
+  color: white;
+  background-color: gray;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: black;
+}

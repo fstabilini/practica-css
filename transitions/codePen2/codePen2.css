@@ -1,0 +1,57 @@
+.container {
+  border: 1px solid grey;
+  height: 400px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.box {
+  background-color: yellow;
+  border-radius: 30px;
+  height: 300px;
+  width: 25%;
+}
+
+/* 1) Create a hover state for the CONTAINER whereby the background color of the BOX changes to green. */
+.container:hover .box {
+  background-color: green;
+}
+
+/* 2) Make the box move on hover by adding margin-left: 75%. */
+.container:hover .box {
+  background-color: green;
+  margin-left: 75%;
+  /* transition: 1s; */
+}
+
+/* 3) It’s a stark transition. Smooth it out with a 1s transition that works when the user moves their cursor onto the container, and also works when they move their cursor off of the container. */
+.box {
+  background-color: yellow;
+  border-radius: 30px;
+  height: 300px;
+  width: 25%;
+  transition: background-color 1s, margin-left 1s;
+}
+
+.container:hover .box {
+  background-color: green;
+  margin-left: 75%;
+}
+
+/* 4) Experiment with the following three values with the transition-timing-function on the container:*/
+/* transition-timing-function: ease; */
+.box {
+  transition: background-color 1s ease, margin-left 1s ease;
+}
+/* transition-timing-function: steps(4, end); */
+.box {
+  transition: background-color 1s steps(4, end), margin-left 1s steps(4, end);
+}
+/* transition-timing-function: cubic-bezier(1, -1, 1, .5);  */
+.box {
+  transition: background-color 1s cubic-bezier(1, -1, 1, 0.5),
+    margin-left 1s cubic-bezier(1, -1, 1, 0.5);
+}
+
+/* 5) Discuss your observations from #4 and research the documentation to prove and clarify your observations. */

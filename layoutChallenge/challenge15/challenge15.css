@@ -1,0 +1,50 @@
+.wrap {
+  height: 400px;
+  width: 530px;
+  border: 5px solid red;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  padding-left: 0;
+}
+
+.left-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.div1 {
+  width: 250px;
+  height: 250px;
+  color: white;
+  background-color: gray;
+  margin-bottom: 50px;
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: black;
+  margin-bottom: 50px;
+}
+
+.right-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.div3 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+
+.div4 {
+  width: 250px;
+  height: 250px;
+  color: white;
+  background-color: gray;
+}

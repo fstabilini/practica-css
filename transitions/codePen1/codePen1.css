@@ -1,0 +1,36 @@
+div {
+  background-color: yellow;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
+}
+/* 1) Create a pseudo class of hover. On hover, the div should transition background color on a 2s delay. (Hint: transition-property & transition-duration are things)*/
+div:hover {
+  background-color: red;
+  transition-property: background-color;
+  transition-duration: 2s;
+}
+/* 2) What happens with the transition when you move your cursor off the div? */
+/* When you move your cursor off the div, the transition effect as initially defined does not apply in reverse. This is because the transition properties are only applied to the hover state, and not to the base state of the div.  */
+
+/* 3) Move the transition properties out of the hover state and onto the base div. What is different now when you move your cursor off the block? */
+/*  With the transition properties on the base div, the background color will smoothly transition back to yellow over the specified duration when the cursor is moved off.  */
+/* div {
+  background-color: yellow;
+  border-radius: 30px;
+  height: 300px;
+  width: 300px;
+   margin: 0 auto;
+  transition-property: background-color;
+  transition-duration: 2s;
+} */
+/* 4) You can chain properties together that you want to transition. Change the background-color and border-radius at the same time, but set them to different duration speeds. The border of the box should transition from 30px to 0. */
+div:hover {
+  background-color: blue;
+  border-radius: 0px;
+  transition-property: background-color, border-radius;
+  transition-duration: 2s, 1s;
+}
+/* 5) Assuming you have successfully completed steps 1-4, now delete the transition-property line of code. Does your animation still work? Why?  */
+/*  the animation should still work, but it will apply the transition effect to all animatable properties of the div, not just the ones previously specified. This is because when transition-property is omitted, the default value is all, meaning all properties that can transition will do so over the specified duration. */

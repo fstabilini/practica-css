@@ -1,0 +1,33 @@
+.wrap {
+  height: 500px;
+  width: 600px;
+  border: 5px solid red;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+}
+
+.div1 {
+  width: 400px;
+  height: 200px;
+  color: white;
+  background-color: gray;
+  display: flex;
+  align-items: end;
+}
+
+.div2 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+
+.div3 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: black;
+  margin-left: auto;
+  align-self: flex-start;
+}

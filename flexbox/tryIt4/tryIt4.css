@@ -1,0 +1,65 @@
+body {
+  background-color: #dfe6e9;
+  margin: 0;
+  /* challenge 3 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  background-color: white;
+  width: 50%;
+  height: 300px;
+  border: solid 1px black;
+  /* challenge 1 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box {
+  height: 75px;
+  width: 75px;
+  /* challenge 2 */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.box:nth-child(1) {
+  background-color: #fd79a8;
+}
+
+.box:nth-child(2) {
+  background-color: #74b9ff;
+}
+
+.box:nth-child(3) {
+  background-color: #a29bfe;
+}
+
+.small-box {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+/* // Challenge 1 */
+
+/* Move the pink, purple, and blue boxes so they are stacked in a column, horizontally centered, and vertically spaced apart evenly.  
+*/
+
+/* // Challenge 2 */
+
+/* Move the yellow boxes so they are in a horizontal row, at the bottom right corner of the pink box */
+
+/* // Challenge 3 */
+
+/* Move the white box (.wrapper) to the center of the page. The white box should be centered both vertically and horizontally. */
+
+/* Need a hint? Add a border to the body. What do you notice about its height?  */

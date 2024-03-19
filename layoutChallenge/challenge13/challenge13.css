@@ -1,0 +1,52 @@
+.wrap {
+  height: 500px;
+  width: 500px;
+  border: 5px solid red;
+}
+
+.div1 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: black;
+}
+
+.div2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  color: white;
+  top: 60px;
+  left: 60px;
+}
+
+.div3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  top: 120px;
+  left: 120px;
+}
+
+.div4 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  color: white;
+  top: 180px;
+  left: 180px;
+}
+
+.div5 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: white;
+  top: 240px;
+  left: 240px;
+}

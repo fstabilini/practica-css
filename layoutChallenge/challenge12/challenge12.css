@@ -1,0 +1,36 @@
+.wrap {
+  height: 500px;
+  width: 600px;
+  border: 5px solid red;
+}
+
+.div1 {
+  width: 200px;
+  height: 400px;
+  color: white;
+  background-color: grey;
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  align-items: end;
+}
+
+.div2 {
+  width: 150px;
+  height: 200px;
+  color: white;
+  background-color: black;
+  position: absolute;
+  left: 150px;
+  z-index: 1;
+}
+
+.div3 {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: lightskyblue;
+  position: absolute;
+  top: 350px;
+  z-index: 2;
+}

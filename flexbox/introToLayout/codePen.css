@@ -1,0 +1,54 @@
+.inline {
+  display: inline;
+  background-color: mediumslateblue;
+  height: 100px;
+  width: 100px;
+  /* 1. do height and width take any affect for display: inline? */
+  /*  No. Los elementos inline están diseñados para fluir dentro del texto y sólo respetan las propiedades de margen (margin) y relleno (padding) en el eje horizontal, no en el vertical. */
+}
+
+.inline-block {
+  display: inline-block;
+  background-color: lightseagreen;
+  height: 100px;
+  width: 100px;
+  /* 2. do height and width take any affect for display: inline-block? */
+  /*  sí respetan las propiedades de height y width. Esto permite que los elementos inline-block se coloquen en línea con otros elementos pero manteniendo propiedades de bloque como la altura y el ancho. */
+}
+
+.block {
+  display: block;
+  background-color: orchid;
+  /* 3. comment out display: block for this class */
+  /* what do you observe? what does that mean for the 'div' element */
+  /* Si comentas display: block; para la clase .block, no verás ningún cambio significativo porque los elementos div son de bloque (block) por defecto. Esto significa que ocuparán todo el ancho disponible de su contenedor padre y se mostrarán uno debajo del otro, comportamiento que es inherente a los elementos de bloque. */
+}
+
+div {
+  /* these are just extra styles to make it a bit prettier */
+  padding: 2px;
+  margin: 3%;
+}
+
+/* 4. uncomment the CSS rule below to visualize each 'section' element */
+/* what is the default display for a 'section' tag? */
+/* El display predeterminado para una etiqueta section es block */
+
+/* section {
+  background-color: palegreen;
+} */
+
+/* 5. Checkout the final section in the HTML. It contains 3 p tags that contain varying content. */
+/* A. Add a display property of block to the 'change-me' class. What do you observe? What is the default display property for a paragraph tag? */
+/* , no notarás ningún cambio significativo porque las etiquetas p son elementos de bloque por defecto. */
+/* B. Change your display property to inline. What do you observe? Why? */
+/* hará que los párrafos se muestren en línea, uno al lado del otro, */
+/* C. Change your display property to inline-block. What do you observe? Why? */
+/* permitirá que los párrafos se muestren en línea pero manteniendo propiedades de bloque como height y width. */
+
+.change-me {
+  /* display: block; */
+  /* display: inline; */
+  /* display: inline-block; */
+  background-color: mediumspringgreen;
+}

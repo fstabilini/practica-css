@@ -1,0 +1,39 @@
+.container {
+  border: 1px solid grey;
+  height: 400px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.box {
+  background-color: yellow;
+  border-top: 5px solid red;
+  height: 95px;
+  width: 100px;
+  -webkit-transform: rotate(45deg);
+}
+
+/* 1) Rotate the box counter-clockwise 45 degrees */
+/* cambiar esta: -webkit-transform: rotate(-45deg); */
+
+/* 2) What happens when you pass rotate an argument of .5turn or .75turn or 2turn */
+/* .5turn equivale a una media vuelta (180 grados).
+.75turn equivale a tres cuartos de vuelta (270 grados).
+2turn equivale a dos vueltas completas (720 grados). */
+/* cambiar  -webkit-transform: rotate(.5turn); etc */
+
+/* 3) You can control the origin from which the transformation initiates. Add -webkit-transform-origin: 100% 100%; to the hover state of your container and then experiment with changing the x and y values of the property. What do you notice by using 0 for both x and y, versus using 50% for both x and y? */
+/* .box:hover {
+  -webkit-transform-origin: 100% 100%; /* El punto de origen está en la esquina inferior derecha 
+} */
+
+/* 4) Implement scale and skew transformations */
+/* .box {
+  background-color: yellow;
+  border-top: 5px solid red;
+  height: 95px;
+  width: 100px;
+  -webkit-transform: rotate(45deg) scale(1.5) skew(10deg, 20deg);
+  -webkit-transform-origin: center; 
+} /*
